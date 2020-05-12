@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pbelisario.github.io/portfolio/static/css/main.b1b136ab.chunk.css",
+    "main.js": "/pbelisario.github.io/portfolio/static/js/main.6b5d40c7.chunk.js",
+    "main.js.map": "/pbelisario.github.io/portfolio/static/js/main.6b5d40c7.chunk.js.map",
+    "runtime-main.js": "/pbelisario.github.io/portfolio/static/js/runtime-main.a2f8dad8.js",
+    "runtime-main.js.map": "/pbelisario.github.io/portfolio/static/js/runtime-main.a2f8dad8.js.map",
+    "static/css/2.68bf7c02.chunk.css": "/pbelisario.github.io/portfolio/static/css/2.68bf7c02.chunk.css",
+    "static/js/2.d7cd0085.chunk.js": "/pbelisario.github.io/portfolio/static/js/2.d7cd0085.chunk.js",
+    "static/js/2.d7cd0085.chunk.js.map": "/pbelisario.github.io/portfolio/static/js/2.d7cd0085.chunk.js.map",
+    "index.html": "/pbelisario.github.io/portfolio/index.html",
+    "precache-manifest.edc578ed721d6c6e409d38c1c5e40d14.js": "/pbelisario.github.io/portfolio/precache-manifest.edc578ed721d6c6e409d38c1c5e40d14.js",
+    "service-worker.js": "/pbelisario.github.io/portfolio/service-worker.js",
+    "static/css/2.68bf7c02.chunk.css.map": "/pbelisario.github.io/portfolio/static/css/2.68bf7c02.chunk.css.map",
+    "static/css/main.b1b136ab.chunk.css.map": "/pbelisario.github.io/portfolio/static/css/main.b1b136ab.chunk.css.map",
+    "static/js/2.d7cd0085.chunk.js.LICENSE.txt": "/pbelisario.github.io/portfolio/static/js/2.d7cd0085.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2f8dad8.js",
+    "static/css/2.68bf7c02.chunk.css",
+    "static/js/2.d7cd0085.chunk.js",
+    "static/css/main.b1b136ab.chunk.css",
+    "static/js/main.6b5d40c7.chunk.js"
+  ]
+}
