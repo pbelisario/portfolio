@@ -8,9 +8,6 @@ export default class About extends React.Component {
         super();
         this.state = {
             cur_idiom: 'eng',
-            idiom:  {'eng': 'TEXT ENG', 
-                     'port': 'Estagiário de desenvolvimento, apaixonado por Deep Learning e visão computacional e machine learning para modelos preditivos comerciais.',
-                     'jpn': 'JAPANESE' }
         }
     }
     updateIdiom(cur_idiom) {
@@ -22,13 +19,13 @@ export default class About extends React.Component {
         return (
         <section id='about' className='about-mf sect-pt4 route background bg-image'>
             <div className='container'>
-                <div className='box-shadow-full background'>
+                <div className='box-shadow-full background-darker'>
                     <div className='title-box'>
-                        <h2 className='about-title'>About me</h2>
+                        {aboutMe(this.state.cur_idiom)}
                     </div>
                     <div>
                         <div>
-                            <p className='lead about-text'>{this.state.idiom[this.state.cur_idiom]}</p>
+                            <div className='lead about-text'>{formatedText(this.state.cur_idiom)}</div>
                         </div>
                         <div className='idioms-div'>
                             <ul className='idioms-list'>
@@ -43,5 +40,25 @@ export default class About extends React.Component {
             </div>
         </section>
         );
+    }
+}
+
+function formatedText(lang) {
+    if (lang == 'port') {
+        return <div><p>TEXT PORT</p></div>
+    } else if (lang == 'eng') {
+        return <div><p>TEXT ENG</p></div>
+    } else if (lang == 'jpn') {
+        return <div><p>TEXT JPN</p></div>
+    }
+}
+
+function aboutMe(lang) {
+    if (lang == 'port') {
+        return <h2 className='about-title'>Sobre mim</h2>
+    } else if (lang == 'eng') {
+        return <h2 className='about-title'>About me</h2>
+    } else if (lang == 'jpn') {
+        return <h2 className='about-title'>自己紹介</h2>
     }
 }

@@ -60,7 +60,7 @@ export default class Navbar extends React.Component {
                     <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
                         <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link js-scroll active" href="#home">Home</a>
+                            <a className="nav-link js-scroll active" color='black' href="#home">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll" href="#about">About</a>

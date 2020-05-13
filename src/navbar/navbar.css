@@ -61,6 +61,10 @@
     background-color: rgb(247, 156, 156);
 }
 
+.navbar-b.navbar-trans .nav-link:hover {
+    color: rgb(247, 156, 156);
+}
+
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
@@ -70,7 +74,7 @@
 
 .navbar-b.navbar-reduce {
     transition: all .5s ease-in-out;
-    background-color: #261a70;
+    background-color: #21166b;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -79,12 +83,32 @@
     color: rgb(233, 222, 231);
 }
 
+.navbar-b.navbar-reduce .nav-link:before {
+    background-color: rgb(247, 156, 156);
+}
+
+.navbar-b.navbar-reduce .nav-link:hover {
+    color: rgb(247, 156, 156);
+}
+
+.navbar-b.navbar-reduce .show > .nav-link,
+.navbar-b.navbar-reduce .active > .nav-link,
+.navbar-b.navbar-reduce .nav-link.show,
+.navbar-b.navbar-reduce .nav-link.active {
+  color: rgb(247, 156, 156);
+}
+
+.navbar-b.navbar-reduce .navbar-brand {
+    color: rgb(247, 156, 156);
+}
+
+
 .navbar-b.navbar-reduce .navbar-toggler span {
     background-color: #1B1B1B;
 }
 
 .navbar-b .navbar-brand {
-    color: #fff;
+    color: rgb(233, 222, 231);
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -108,13 +132,13 @@
 }
   
 .navbar-b .dropdown-menu .dropdown-item:hover {
-    background-color: #0078ff;
-    color: #fff;
+    background-color: #21166b;
+    color: rgb(233, 222, 231);
     transition: all 500ms ease;
 }
   
 .navbar-b .dropdown-menu .dropdown-item.active {
-    background-color: #151616;
+    background-color: rgb(233, 222, 231);
 }
 
 .navbar-toggler {
@@ -128,7 +152,7 @@
 
 .navbar-toggler span {
     display: block;
-    background-color: #fff;
+    background-color: rgb(233, 222, 231);;
     height: 3px;
     width: 25px;
     margin-top: 4px;

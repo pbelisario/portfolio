@@ -8,9 +8,10 @@ import './libs/easing.js';
 
 import * as serviceWorker from './serviceWorker';
 
-import About from './about/about'
+import About from './about/about';
+import Contact from './contact/contact';
 import Intro from './intro/intro';
-import Navbar from './navbar/navbar'
+import Navbar from './navbar/navbar';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -19,7 +20,7 @@ ReactDOM.render(
     <Navbar />
     <Intro />
     <About />
-
+    <Contact />
   </React.Fragment>,
   document.getElementById('root')
 );
